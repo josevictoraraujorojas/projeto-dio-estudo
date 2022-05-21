@@ -1,0 +1,185 @@
+*COMANDOS IMPORTANTES GIT:
+
+1.git help
+Obtenha ajuda da seção de ajuda do github para diferentes comandos e outros erros 
+ 
+
+2.git config
+Para definir as configurações básicas no github, como seu nome e e-mail. 
+ 
+
+3.git config –-global user.name “Ashish Madaan”
+Define valores de configuração para seu nome de usuário no git. 
+ 
+
+4.git config –-global user.email ashishmadaan6@gmail.com
+Define valores de configuração para seu e-mail de usuário no git. 
+ 
+
+5.git config –-global color.ui true
+Para ver cores diferentes na linha de comando para saídas diferentes. 
+ 
+
+6.mkdir store
+Crie um diretório se não tiver sido criado inicialmente. 
+ 
+
+7.cd store
+Para entrar no diretório e trabalhar em seu conteúdo. 
+ 
+
+8.git init
+Para criar um repositório git local para nós em nossa pasta de armazenamento. Isso ajudará a gerenciar os comandos git para esse repositório específico. 
+ 
+
+9.git status
+Para ver o que mudou desde o último commit. Mostra todos os arquivos que foram adicionados e modificados e prontos para serem enviados e arquivos que não foram rastreados 
+ 
+
+10.git add Readme.txt
+Para adicionar um arquivo Readme.txt à área de teste para rastrear suas alterações. 
+ 
+
+11.git commit -m “Created a Readme.txt”
+Para confirmar nossas alterações (tirando um instantâneo) e fornecendo uma mensagem para lembrar para referência futura. 
+ 
+
+12.git log
+Para verificar o histórico de commits para nossa referência. 
+
+Diferentes maneiras de usar o comando add: 
+ 
+
+13.git add
+Para adicionar uma lista específica de arquivos à área de teste. 
+ 
+
+14.git add --all
+Para adicionar todos os arquivos do diretório atual à área de teste. 
+ 
+
+15.git add *.txt
+Para adicionar todos os arquivos de texto do diretório atual à área de teste. 
+ 
+
+16.git add docs/*.txt
+Para adicionar todos os arquivos de texto de um determinado diretório (docs) à área de teste. 
+ 
+
+17.git add docs/
+Para adicionar todos os arquivos em um determinado diretório (documentos) para a área de teste. 
+ 
+
+18.git add “*.txt”
+Para adicionar arquivos de texto de todo o projeto à área de teste. 
+Mais comandos: 
+ 
+
+19.git diff
+Para descobrir quais mudanças você fez desde o último commit. 
+ 
+
+20.git reset head license
+Para desfazer a preparação do arquivo que foi adicionado na área de preparação. 
+ 
+
+21.git checkout –license
+Para acabar com todas as mudanças desde o último commit do arquivo. 
+ 
+
+22.git commit -a -m “Readme.md”
+Para adicionar qualquer um de nossos arquivos rastreados à área de teste e enviá-los, fornecendo uma mensagem para lembrar. 
+ 
+
+23.git reset –soft HEAD^
+Para desfazer o último commit e trazer o arquivo para a área de teste. 
+ 
+
+24.git reset –hard HEAD^
+Para desfazer o último commit e remover o arquivo da área de teste também (caso tenhamos errado terrivelmente). 
+ 
+
+25.git reset –hard HEAD^^
+Para desfazer os 2 últimos commits e todas as alterações. 
+ 
+
+26.git remote add origin https://github.com/madaan123/MyAlgorithms.git
+Este comando cria um marcador que significa que este controle remoto em particular se refere a este URL. 
+Este controle remoto será usado para puxar qualquer conteúdo do diretório e enviar nosso conteúdo local para o servidor global. 
+ 
+
+27.git remote add <address> 
+Para adicionar novos remotos ao nosso repositório local para um endereço git específico. 
+ 
+
+28.git remove rm
+Para remover um controle remoto de nosso repositório local. 
+ 
+
+29.git push -u origin master
+Para enviar todo o conteúdo do nosso repositório local que pertence ao branch master para o servidor (repositório global). 
+ 
+
+30.git clone https://github.com/madaan123/MyAlgorithms.git
+Para clonar ou fazer uma cópia local do repositório global em seu sistema 
+(o comando git clone baixa o repositório e cria um remoto nomeado como origem que pode ser verificado pelo comando - git remote -v). 
+ 
+
+31.git branch Testing
+Para criar um novo branch denominado como Teste. 
+ 
+
+32.git branch
+Para ver todos os ramos presentes e o ramo atual em que estamos trabalhando. 
+ 
+
+33.git checkout Testing
+Para alternar para o teste de ramificação da ramificação mestre. 
+ 
+
+34.ls
+Para ver diretórios e arquivos no diretório atual. 
+ 
+
+35.git merge Testing
+Para mesclar a ramificação de teste com a ramificação mestre. 
+ 
+
+36.git branch -d Testing
+Para excluir o ramo de teste. 
+ 
+
+37.git checkout -b admin
+Para criar um novo administrador de filial e defini-lo como filial atual. 
+ 
+
+38.git branch -r
+Para olhar para todos os ramos remotos. 
+ 
+
+39.git branch -D Testing
+Para excluir à força um branch sem fazer commits. 
+ 
+
+40.git tag
+Para ver a lista de tags disponíveis. 
+ 
+
+41.git checkout v0.0.1
+Para definir a tag atual para v0.0.1. 
+ 
+
+42.git tag -a v0.0.3 -m “version 0.0.3”
+Para criar uma nova tag. 
+ 
+
+43.git push –tags
+Para enviar as tags para o repositório remoto. 
+ 
+
+44.git fetch
+Para buscar quaisquer alterações do repositório global para o repositório atual 
+ 
+
+45.git rebase
+Três tarefas são realizadas pelo git rebase 
